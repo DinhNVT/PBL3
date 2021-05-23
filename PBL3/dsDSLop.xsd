@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDSLop" targetNamespace="http://tempuri.org/dsDSLop.xsd" xmlns:mstns="http://tempuri.org/dsDSLop.xsd" xmlns="http://tempuri.org/dsDSLop.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDSLop" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsDSLop" msprop:Generator_UserDSName="dsDSLop">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtDSLop" msprop:Generator_TableClassName="dtDSLopDataTable" msprop:Generator_TableVarName="tabledtDSLop" msprop:Generator_TablePropName="dtDSLop" msprop:Generator_RowDeletingName="dtDSLopRowDeleting" msprop:Generator_RowChangingName="dtDSLopRowChanging" msprop:Generator_RowEvHandlerName="dtDSLopRowChangeEventHandler" msprop:Generator_RowDeletedName="dtDSLopRowDeleted" msprop:Generator_UserTableName="dtDSLop" msprop:Generator_RowChangedName="dtDSLopRowChanged" msprop:Generator_RowEvArgName="dtDSLopRowChangeEvent" msprop:Generator_RowClassName="dtDSLopRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TenKH" msprop:Generator_ColumnVarNameInTable="columnTenKH" msprop:Generator_ColumnPropNameInRow="TenKH" msprop:Generator_ColumnPropNameInTable="TenKHColumn" msprop:Generator_UserColumnName="TenKH" type="xs:string" minOccurs="0" />
+              <xs:element name="TenLop" msprop:Generator_ColumnVarNameInTable="columnTenLop" msprop:Generator_ColumnPropNameInRow="TenLop" msprop:Generator_ColumnPropNameInTable="TenLopColumn" msprop:Generator_UserColumnName="TenLop" type="xs:string" minOccurs="0" />
+              <xs:element name="TenGV" msprop:Generator_ColumnVarNameInTable="columnTenGV" msprop:Generator_ColumnPropNameInRow="TenGV" msprop:Generator_ColumnPropNameInTable="TenGVColumn" msprop:Generator_UserColumnName="TenGV" type="xs:string" minOccurs="0" />
+              <xs:element name="TenHV" msprop:Generator_ColumnVarNameInTable="columnTenHV" msprop:Generator_ColumnPropNameInRow="TenHV" msprop:Generator_ColumnPropNameInTable="TenHVColumn" msprop:Generator_UserColumnName="TenHV" type="xs:string" minOccurs="0" />
+              <xs:element name="GioiTinhHV" msprop:Generator_ColumnVarNameInTable="columnGioiTinhHV" msprop:Generator_ColumnPropNameInRow="GioiTinhHV" msprop:Generator_ColumnPropNameInTable="GioiTinhHVColumn" msprop:Generator_UserColumnName="GioiTinhHV" type="xs:boolean" minOccurs="0" />
+              <xs:element name="NgaySinhHV" msprop:Generator_ColumnVarNameInTable="columnNgaySinhHV" msprop:Generator_ColumnPropNameInRow="NgaySinhHV" msprop:Generator_ColumnPropNameInTable="NgaySinhHVColumn" msprop:Generator_UserColumnName="NgaySinhHV" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DiaChiHV" msprop:Generator_ColumnVarNameInTable="columnDiaChiHV" msprop:Generator_ColumnPropNameInRow="DiaChiHV" msprop:Generator_ColumnPropNameInTable="DiaChiHVColumn" msprop:Generator_UserColumnName="DiaChiHV" type="xs:string" minOccurs="0" />
+              <xs:element name="SDTHV" msprop:Generator_ColumnVarNameInTable="columnSDTHV" msprop:Generator_ColumnPropNameInRow="SDTHV" msprop:Generator_ColumnPropNameInTable="SDTHVColumn" msprop:Generator_UserColumnName="SDTHV" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
